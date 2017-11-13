@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SecurAPK</title>
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon.png">
+
+  <link rel="stylesheet" href="./materialize-src/sass/materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo hide-on-med-and-down"><img src="./name_icon.png" alt=""></a>
+      <a href="#" class="brand-logo hide-on-large-only"><img src="./icon.png" alt=""></a>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"><i class="material-icons left">email</i>Contact</a></li>
+        <li><a href="#"><i class="material-icons left">lightbulb_outline</i>Idea</a></li>
+        <li><a href="#"><i class="material-icons left">view_list</i>List</a></li>
+        <li><a class="waves-effect waves-light btn-large">Analyze APK</a></li>
+      </ul>
+      <ul id="slide-out" class="side-nav">
+        <li><a class="waves-effect waves-light btn">Analyze APK</a></li>
+        <li><a href="#"><i class="material-icons left">view_list</i>List</a></li>
+        <li><a href="#"><i class="material-icons left">lightbulb_outline</i>Idea</a></li>
+        <li><a href="#"><i class="material-icons left">email</i>Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col l6 offset-l3 m12">
+        <div class="input-file-box valign-wrapper">
+          <input type="file" name="file" id="file" class="input-file" />
+          <label class="center-block z-depth-1" for="file">Choose an APK file</label>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col l8 offset-l2 m12">
+        <div class="progress">
+          <div class="indeterminate"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col l8 offset-l2 m12">
+        <ul class="collection">
+          <li class="collection-item avatar active">
+            <i class="material-icons circle">insert_chart</i>
+            <span class="title">APK unpacking</span>
+            <p>It's just an ZIP archive<br>
+              and the process of unpacking ZIP archives is very fast.
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons medium">done</i></a>
+          </li>
+          <li class="collection-item avatar active">
+            <i class="material-icons circle">border_clear</i>
+            <span class="title">Decompilation</span>
+            <p>If someone have created this world<br>
+              wouldn't science become a sort of reverse engineering?
+            </p>
+            <a href="#!" class="secondary-content"><i class="material-icons medium">done</i></a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle">text_fields</i>
+            <span class="title">Parsing</span>
+            <p>First Line <br>
+              Second Line
+            </p>
+            <div class="preloader-wrapper active secondary-content">
+              <div class="spinner-layer spinner-green-only">
+                <div class="circle-clipper left">
+                  <div class="circle"></div>
+                </div><div class="gap-patch">
+                <div class="circle"></div>
+              </div><div class="circle-clipper right">
+                <div class="circle"></div>
+              </div>
+              </div>
+            </div>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle">blur_on</i>
+            <span class="title">Statistical analysis</span>
+            <p>First Line <br>
+              Second Line
+            </p>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle">timeline</i>
+            <span class="title">Code metrics</span>
+            <p>First Line <br>
+              Second Line
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="main.js"></script>
+</html>
