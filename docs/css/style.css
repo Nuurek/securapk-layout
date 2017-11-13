@@ -6835,4 +6835,35 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
-/*# sourceMappingURL=materialize.css.map */
+.nav-wrapper .brand-logo img {
+  height: 64px; }
+
+@media only screen and (max-width: 992px) {
+  .nav-wrapper .brand-logo img {
+    height: 56px; } }
+.input-file-box {
+  margin-top: 5vh;
+  min-height: 30vh; }
+  @media only screen and (max-width: 992px) {
+    .input-file-box {
+      min-height: 80vh; } }
+  .input-file-box .input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1; }
+    .input-file-box .input-file + label {
+      font-size: 1.25em;
+      font-weight: 700;
+      display: inline-block;
+      cursor: pointer;
+      padding: 15vh 10vw; }
+      @media only screen and (max-width: 992px) {
+        .input-file-box .input-file + label {
+          padding: 30vh 20vw; } }
+      .input-file-box .input-file + label img {
+        height: 64px; }
+
+/*# sourceMappingURL=style.css.map */

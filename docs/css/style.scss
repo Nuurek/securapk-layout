@@ -1,10 +1,10 @@
-@import "materialize-src/sass/materialize";
+@import "materialize";
 
 .nav-wrapper .brand-logo img {
   height: 64px;
 }
 
-@media (max-width: 600px) {
+@media #{$medium-and-down} {
   .nav-wrapper .brand-logo img {
     height: 56px;
   }
@@ -34,7 +34,11 @@
       padding: 15vh 10vw;
 
       @media #{$medium-and-down} {
-        padding: 40vh 20vw;
+        padding: 30vh 20vw;
+      }
+
+      img {
+        height: 64px;
       }
     }
   }

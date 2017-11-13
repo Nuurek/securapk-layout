@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>SecurAPK</title>
-  <link rel="icon" type="image/png" sizes="96x96" href="./favicon.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon.png">
 
-  <link rel="stylesheet" href="./materialize-src/sass/materialize.css">
+  <link rel="stylesheet" href="css/materialize.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo hide-on-med-and-down"><img src="./name_icon.png" alt=""></a>
-      <a href="#" class="brand-logo hide-on-large-only"><img src="./icon.png" alt=""></a>
+      <a href="#" class="brand-logo hide-on-med-and-down"><img src="name_icon.png" alt=""></a>
+      <a href="#" class="brand-logo hide-on-large-only"><img src="icon.png" alt=""></a>
       <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#"><i class="material-icons left">email</i>Contact</a></li>
@@ -33,45 +33,45 @@
   </nav>
   <div class="container">
     <div class="row">
-      <div class="col l6 offset-l3 m12">
+      <div class="col l6 offset-l3 s12">
         <div class="input-file-box valign-wrapper">
           <input type="file" name="file" id="file" class="input-file" />
-          <label class="center-block z-depth-1" for="file">Choose an APK file</label>
+          <label class="center-block z-depth-1" for="file">
+            <img class="center-block" src="icon.png" alt="">
+            <p>Choose an APK file</p>
+          </label>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col l8 offset-l2 m12">
+      <div class="col l8 offset-l2 s12">
         <div class="progress">
           <div class="indeterminate"></div>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col l8 offset-l2 m12">
-        <ul class="collection">
+      <div class="col l8 offset-l2 s12">
+        <ul class="collection z-depth-1">
           <li class="collection-item avatar active">
-            <i class="material-icons circle">insert_chart</i>
+            <i class="material-icons circle z-depth-2">insert_chart</i>
             <span class="title">APK unpacking</span>
-            <p>It's just an ZIP archive<br>
-              and the process of unpacking ZIP archives is very fast.
-            </p>
-            <a href="#!" class="secondary-content"><i class="material-icons medium">done</i></a>
+            <p>APK is just an ZIP archive.</p>
+            <p>This step is very fast.</p>
+            <a href="#" class="secondary-content"><i class="material-icons medium">done</i></a>
           </li>
           <li class="collection-item avatar active">
-            <i class="material-icons circle">border_clear</i>
+            <i class="material-icons circle z-depth-2">border_clear</i>
             <span class="title">Decompilation</span>
-            <p>If someone have created this world<br>
-              wouldn't science become a sort of reverse engineering?
-            </p>
-            <a href="#!" class="secondary-content"><i class="material-icons medium">done</i></a>
+            <p>Reverse Complak-eering</p>
+            <p>Let's welcome the bytecode</p>
+            <a href="#" class="secondary-content"><i class="material-icons medium">done</i></a>
           </li>
           <li class="collection-item avatar">
-            <i class="material-icons circle">text_fields</i>
+            <i class="material-icons circle z-depth-2">text_fields</i>
             <span class="title">Parsing</span>
-            <p>First Line <br>
-              Second Line
-            </p>
+            <p>Brace yourself</p>
+            <p>Parsing is coming</p>
             <div class="preloader-wrapper active secondary-content">
               <div class="spinner-layer spinner-green-only">
                 <div class="circle-clipper left">
@@ -85,18 +85,16 @@
             </div>
           </li>
           <li class="collection-item avatar">
-            <i class="material-icons circle">blur_on</i>
+            <i class="material-icons circle z-depth-2">blur_on</i>
             <span class="title">Statistical analysis</span>
-            <p>First Line <br>
-              Second Line
-            </p>
+            <p>You must be p>0.5</p>
+            <p>Because I fail to reject you</p>
           </li>
           <li class="collection-item avatar">
-            <i class="material-icons circle">timeline</i>
+            <i class="material-icons circle z-depth-2">timeline</i>
             <span class="title">Code metrics</span>
-            <p>First Line <br>
-              Second Line
-            </p>
+            <p>Can't worry about metrics</p>
+            <p>If you don't measure anything</p>
           </li>
         </ul>
       </div>
@@ -104,6 +102,6 @@
   </div>
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/bin/materialize.js"></script>
 <script src="main.js"></script>
 </html>
